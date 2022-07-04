@@ -1,0 +1,80 @@
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04aa6d;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.navbar {
+  margin: 10px 0;
+}
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.brand-name {
+  font-family: "Josefin Slab", serif;
+  font-size: 47px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+}
+
+.nav-container {
+  padding-top: 8px;
+}
+
+.navbar-custom {
+  font-size: 20px;
+  background-color: #fff;
+}
+body {
+  background-color: rgb(72, 192, 243);
+}
+table,
+th,
+td {
+  width: 90%;
+  border: 1px solid;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: rgb(218, 203, 203);
+}
+#textboxid {
+  height: 200px;
+  font-size: 14pt;
+}
+form {
+  display: block;
+  text-align: center;
+}
